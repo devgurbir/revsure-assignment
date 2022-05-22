@@ -36,14 +36,16 @@ const ColumnChart = () => {
         formatter: (text) => text + "%"
       }
     },
-    xAxis: false,    
+    xAxis: false,
+    yAxis: {
+      grid: null
+    },    
     seriesField: 'value',
     legend: false,
     intervalPadding: 3,
     columnStyle: {
       border: 'solid'
     },
-
      
   };   
     
